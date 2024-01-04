@@ -1,0 +1,49 @@
+.list {
+    list-style: none;
+    padding: 0;
+    color: #696969;
+}
+
+.rule>.text {
+margin-bottom: 0;
+}
+
+.rule {
+    margin-bottom: 30px;
+}
+
+.rule:last-child {
+    margin-bottom: 0px;
+}
+
+.list-item:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 2px;
+    background-color: #696969;
+    margin-right: 5px;
+}
+
+.figure >.img {
+    width: 250px;
+}
+
+.figure-wrap {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+    color: #000000;
+}
+
+.title {
+    font-size: 1em;
+    margin: 0;
+}
+
+.rule>.title {
+    margin: 0 0 20px 0;
+}
